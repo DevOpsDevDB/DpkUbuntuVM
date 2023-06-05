@@ -1,0 +1,38 @@
+{
+  "url": "https://web3universe.today",
+  "server": {
+    "port": 2370,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "localhost",
+      "user": "ghost-357",
+      "password": "65hxDZ3oB0sZsm2*ne0W",
+      "database": "web3universe"
+    }
+  },
+  "mail": {
+    "transport": "SMTP",
+    "options": {
+      "host": "smtp.mailgun.org",
+      "port": 587,
+      "secure": false,
+      "auth": {
+        "user": "postmaster@web3universe.today",
+        "pass": "cf53eec94dae2bc748f80d6a7f5e2082-ca9eeb88-8dc66c08"
+      }
+    }
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "systemd",
+  "paths": {
+    "contentPath": "/var/www/web3universe-online/content"
+  }
+}

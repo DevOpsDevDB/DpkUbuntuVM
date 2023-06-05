@@ -1,0 +1,9 @@
+{
+  "active-version": "5.34.1",
+  "cli-version": "1.24.0",
+  "channel": "stable",
+  "name": "web3universe-today",
+  "previous-version": "5.33.5",
+  "node-version": "16.19.0",
+  "running": "production"
+}

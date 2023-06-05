@@ -1,0 +1,8 @@
+id,email,name,note,subscribed_to_emails,complimentary_plan,stripe_customer_id,created_at,deleted_at,labels,tiers
+63dec33422e76ca8cefea9f5,mahesh.chand@outlook.com,Mahesh Chand,,true,,,2023-02-04T20:42:28.000Z,,,
+63e0f17022e76ca8cefeaa02,calldwivedi@gmail.com,Manish,,true,,,2023-02-06T12:24:16.000Z,,,
+63e28f0922e76ca8cefeaa26,deepaktewatia01@outlook.com,Deepak,,true,,,2023-02-07T17:48:57.000Z,,,
+63e4c72b22e76ca8cefeaa3c,deepak.tewatia@mcnsolutions.net,deepak.tewatia@mcnsolutions.net,,true,,,2023-02-09T10:12:59.000Z,,,
+63edd54c4f32101c2bb2884b,deepaktewatia01@gmail.com,Deepak Tewatia,,true,,,2023-02-16T07:03:40.000Z,,.NET Developer,
+63edef9d4f32101c2bb2885f,ishika.tiwari@mcnsolutions.net,Ishika Tiwari,,true,,,2023-02-16T08:55:57.000Z,,,
+63ee009b4f32101c2bb28871,rohit.gupta@mcnsolutions.net,Rohit Gupta,,true,,,2023-02-16T10:08:27.000Z,,,
