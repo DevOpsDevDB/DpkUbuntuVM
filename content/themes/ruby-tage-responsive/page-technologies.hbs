@@ -1,0 +1,62 @@
+{{!< default}} <div class="">
+    <h4>Technologies</h4>
+    <br>
+
+    {{!-- <ul class="list">
+        {{#get "tags" limit="all" }}
+        {{#foreach tags}}
+        {{#if feature_image}}
+        <li>
+            <div class="text-card">
+                <div class="cards">
+                    <figure class="">
+                        <img src="{{img_url feature_image}}"
+                            alt="{{#if feature_image_alt}}{{feature_image_alt}}{{else}}{{title}}{{/if}}">
+                        {{#if feature_image_caption}}
+                        <figcaption>{{feature_image_caption}}</figcaption>
+                        {{/if}}
+                    </figure>
+                </div>
+                {{/if}}
+                <b><a href="{{url}}">{{name}}</a></b>
+                {{/foreach}}
+                {{/get}}
+            </div>
+        </li>
+
+    </ul> --}}
+
+    {{!-- <ul class="list">
+        {{#get "tags" }}
+
+
+        {{#foreach tags }}
+        {{#match name "!=" "News"}}
+        {{#match name "!=" "Videos"}}
+        {{#match name "!=" "Articles"}}
+        {{#if feature_image}}
+        <li>
+            <div class="text-card">
+                <div class="cards">
+                    <figure class="">
+                        <img src="{{img_url feature_image}}"
+                            alt="{{#if feature_image_alt}}{{feature_image_alt}}{{else}}{{title}}{{/if}}">
+                        {{#if feature_image_caption}}
+                        <figcaption>{{feature_image_caption}}</figcaption>
+                        {{/if}}
+                    </figure>
+                </div>
+                {{/if}}
+
+                <b><a href="{{url}}">{{name}}</a></b>
+                {{/match}}
+                {{/match}}
+                {{/match}}
+                {{/foreach}}
+
+                {{/get}}
+            </div>
+        </li>
+
+    </ul>
+    </div> --}}

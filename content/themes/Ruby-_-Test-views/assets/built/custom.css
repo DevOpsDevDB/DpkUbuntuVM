@@ -1,0 +1,181 @@
+
+.color-1 [href="/tag/web3/"]{
+    color: red;
+}
+.color-1 [href="/tag/videos/"]{
+    color: rgb(104, 104, 233);
+}
+.color-1 [href="/tag/articles/"]{
+    color: rgb(233, 42, 115);
+}
+.color-1 [href="/tag/news/"]{
+    color: rgb(136, 255, 0);
+}
+.color-1 [href="/tag/blockchain/"]{
+    color: green;
+}
+.color-1 [href="/tag/stratis/"]{
+    color: blue;
+}
+.post-card-content{
+    display: flex;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    
+}
+.text-card{
+    text-align: center;
+    padding: 15px;
+   
+  
+
+}
+ul.list li{
+    width: auto;
+    float: left;
+    list-style:none;
+    
+  }
+
+  .buttontags{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100px;
+    height: 50px;
+    margin-left: 5px;
+    background-color: rgb(107, 43, 226);
+    margin-top:8px;
+    padding: 10px;
+    
+    
+}
+.text-demo {
+    margin-left: 160rem;
+    position: absolute;
+    margin-top: 127px;
+}
+ul.feature li{
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    margin-left: -36px;
+   
+}
+
+.features-article{
+    margin-bottom: 100px;
+}
+.tags-container{
+    margin-top: 100px;
+
+}
+.img-size
+{ width: 80px;
+    height: 80px;
+
+}
+.feature a{
+    margin-left:10px
+}
+.list{
+    margin-left: -36px;
+}
+.buttontags a{
+    color:#ffffff;
+}
+
+
+
+
+/* popup */
+.popup{
+    display: block;
+    width: 200px;
+    height: 800px;
+    position: fixed;
+    z-index: 9939999;
+    left:10px;
+    bottom:10px;
+    padding:5px;
+    background-color:cornflowerblue;
+    box-shadow: 0px 2px 5px #000; 
+    animation: popup 2s;
+    text-align: center;
+    color: #ffffff;
+}
+.popup-post{
+    display: block;
+    width: 200px;
+    height: 800px;
+    position: fixed;
+    z-index: 9939999;
+    left:10px;
+    bottom:10px;
+    padding:5px;
+    background-color: rgb(61, 61, 61);
+    box-shadow: 0px 2px 5px #000; 
+    animation: popup 2s;
+    text-align: center;
+    color: #ffffff;
+}
+
+ @keyframes popup{
+    from {
+       left:-420px;
+    }
+    to {
+      left:10px;
+    }
+  }
+
+.icon-close {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    top:-25px;
+    right: 10px;
+    background: #e5e5e5;
+    border-radius: 5px 5px 0px 0px;
+    padding: 2px;
+}
+.icon-close::before, .icon-close::after{
+     content: "";
+     display: block;
+     position:absolute;
+     top:10px;
+     background-color:#A2A2A2;
+     width:20px;
+     height:3px;
+     border-radius:2px;
+}
+.icon-close::before{
+    transform: rotate(45deg);
+}
+.icon-close::after{
+    transform: rotate(-45deg);
+}
+.icon-close:hover::before, .icon-close:hover::after{
+    background-color:#626262;
+}
+.inner-wrapper h3{
+    margin-bottom:10px;
+    color:#ffffff;
+}
+
+.inner-wrapper a{
+    font-family: 'open sans', sans-serif;
+    text-decoration: none;
+     color: #5e3838 !important; 
+    font-size:24px !important;
+    margin-top:40px;
+    display: inline-block;
+}
+

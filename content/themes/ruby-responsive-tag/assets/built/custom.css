@@ -1,0 +1,217 @@
+.color-1 [href="/tag/web3/"] {
+    color: red;
+}
+
+.color-1 [href="/tag/videos/"] {
+    color: rgb(104, 104, 233);
+}
+
+.color-1 [href="/tag/articles/"] {
+    color: rgb(233, 42, 115);
+}
+
+.color-1 [href="/tag/news/"] {
+    color: purple;
+}
+
+.color-1 [href="/tag/blockchain/"] {
+    color: green;
+}
+
+.color-1 [href="/tag/stratis/"] {
+    color: blue;
+}
+
+.post-card-content {
+    display: flex;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+
+}
+
+.text-card {
+    text-align: center;
+    padding: 15px;
+}
+
+ul.list li {
+    width: auto;
+    float: left;
+    list-style: none;
+    margin-right: 2px;
+    margin-top: 2px;
+}
+
+.buttontags {
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 36px;
+    white-space: nowrap;
+    color: #fff;
+    padding: 0 15px;
+    display: block;
+    font-size: 18px;
+    background-color: rgb(107, 43, 226);
+}
+
+.buttontags:hover {
+    background-color: rgb(73, 73, 73);
+
+}
+
+
+ul.feature li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: -36px;
+}
+
+.features-article {
+    margin-bottom: 100px;
+}
+
+
+.img-size {
+    width: 80px;
+    height: 80px;
+
+}
+
+.feature a {
+    margin-left: 10px
+}
+
+.list {
+    margin-left: -36px;
+}
+
+.buttontags a {
+    color: #ffffff;
+}
+
+
+
+
+/* popup */
+.popup {
+    display: block;
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    z-index: 9939999;
+    right: 10px;
+    bottom:10px;
+    padding: 5px;
+    background-color: #c163f1;
+    box-shadow: 0px 2px 5px #000;
+    animation: popup 1000ms;
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+    transform-origin: bottom center 60px;
+}
+.blast-ani{
+    animation: popup 1000ms;
+    transition: all 0.3s ease-in-out;
+    transform-origin: bottom center 60px;
+}
+@keyframes popup {
+    from {
+        opacity: 0;
+        transform: scale(-0.2);
+    }
+
+    to { opacity: 1;
+        bottom:10px;
+        transform: scale(1);
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .popup {
+        width: 300px;
+        height: 300px;
+    }
+    .gift-box {
+        max-width:180px;
+    }
+    
+}
+
+.icon-close {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    top: -25px;
+    right: 0px;
+    background: #e5e5e5;
+    border-radius: 5px 5px 0px 0px;
+    padding: 2px;
+}
+
+.icon-close::before,
+.icon-close::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 10px;
+    background-color: #A2A2A2;
+    width: 20px;
+    height: 3px;
+    border-radius: 2px;
+}
+
+.icon-close::before {
+    transform: rotate(45deg);
+}
+
+.icon-close::after {
+    transform: rotate(-45deg);
+}
+
+.icon-close:hover::before,
+.icon-close:hover::after {
+    background-color: #626262;
+}
+
+.inner-wrapper h3 {
+    margin-bottom: 40px;
+    color: #ffffff;
+    padding: 12px;
+}
+
+.inner-wrapper a {
+    font-family: 'open sans', sans-serif;
+    text-decoration: none;
+    color: #5e3838 !important;
+    font-size: 24px !important;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.gift-box{
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 400px;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 9999999;
+}
+.gift-box > img{
+    width: 100%;
+}
+
+
+.popup .inner-wrapper a{
+    margin-top: 0px;
+}

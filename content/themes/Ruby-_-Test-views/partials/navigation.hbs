@@ -1,0 +1,29 @@
+{{#if isSecondary}}
+ {{#foreach navigation}}
+  <a href="{{url absolute="true"}}">{{label}}</a>
+{{/foreach}}
+  {{else}}
+  {{#foreach navigation}}
+  <a href="{{url absolute="true"}}">{{label}}</a>
+{{/foreach}}
+<a class="menu-btn"href="{{@site.url}}/page-technologies/">Technologies</a>
+ {{!-- {{#get "tags" limit="all"}}
+{{#foreach tags}}
+<a href="{{url}}">{{name}}</a>
+{{/foreach}}
+{{/get}} --}}
+
+<a class="menu-btn"href="{{@site.url}}/tag/news/">News</a>
+<a class="menu-btn"href="{{@site.url}}/tag/videos/">Videos</a>
+<a class="menu-btn"href="{{@site.url}}/tag/articles/">Articles</a>
+
+{{!-- {{#if @member}}
+ <a class="menu-btn" href="/account/">{{t "Account"}}</a>
+ <a href="#signout" data-members-signout>{{t "Sign out"}}</a>
+   {{else}}<a href="/signin/">{{t "Sign in"}}</a>
+<a class="menu-btn" href="/signup/">{{t "Sign up"}}</a>
+     {{/if}} --}}
+ {{/if}}
+
+
+      
